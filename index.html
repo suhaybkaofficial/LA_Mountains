@@ -1,3 +1,12 @@
+<!-- 
+  Project Name: LA_Mountains
+  Developed by: Suhaybka - https://www.suhaybka.me
+  Technologies Used: HTML, CSS, JavaScript, Tailwind CSS, Swiper.
+  Fonts Used: Bebas, Oswald bold, Lato.
+  Github Link: https://github.com/suhaybkaofficial/LA_Mountains
+  Live Demo: https://la-mountains-rho.vercel.app/
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,25 +36,27 @@
       </div>
       <!-- Overlay Texture Background Image -->
       <!-- Navbar -->
-      <nav class="nav">
+      <nav class="nav ">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex items-center justify-between h-16 ">
-            <div class="flex items-center justify-between w-full">
+            <div class="flex items-center justify-between w-full ">
               <!-- Logo -->
-              <div class="flex-shrink-0">
+              <div class="flex-shrink-0 ">
                 <img class="h-8 w-8" src="./assets/logo/Logo.png" alt="Logo">
               </div>
               <!-- Logo -->
               <!-- Nav Links -->
               <div class="hidden md:block">
-                <div class="ml-10 flex items-baseline space-x-4">
-                  <a href="#"
-                    class="text-white px-3 hover:bg-[#404f6c] py-2 rounded-md text-sm uppercase font-bold italic underline">01.
+                <ul class="ml-10 flex items-baseline space-x-4">
+                  <li>
+                    <a href="#history"
+                    class="text-white px-3 hover:bg-[#404f6c] py-2 rounded-md text-sm  uppercase font-bold italic underline">01.
                     History</a>
-                  <a href="#"
-                    class="text-white hover:bg-[#404f6c] px-3 py-2 rounded-md text-sm uppercase font-bold italic underline">02.
+                  </li>
+                  <a href="#climb"
+                    class="text-white hover:bg-[#404f6c] px-3 py-2 rounded-md text-sm  uppercase font-bold italic underline">02.
                     Team</a>
-                </div>
+                </ul>
               </div>
               <!-- Nav Links -->
 
@@ -100,8 +111,8 @@
       
       <nav>
         <ul class="flex items-center space-x-2">
-          <li><a href=""class="text-[#404f6c] px-3 hover:bg-[#404f6c] hover:text-white transition-all py-2 rounded-md text-md uppercase font-bold italic underline" >01. History</a></li>
-          <li><a href="" class="text-[#404f6c] px-3 hover:bg-[#404f6c] hover:text-white transition-all py-2 rounded-md text-md uppercase font-bold italic underline">01. Team</a></li>
+          <li><a href="#history" id="" class="text-[#404f6c] px-3 hover:bg-[#404f6c] hover:text-white transition-all py-2 rounded-md text-sm uppercase font-bold italic underline" >01. History</a></li>
+          <li><a href="#climb" id="" class="text-[#404f6c] px-3 hover:bg-[#404f6c] hover:text-white transition-all py-2 rounded-md text-sm uppercase font-bold italic underline">01. Team</a></li>
         </ul>
       </nav>
 
@@ -109,7 +120,7 @@
     <!-- Another Nav -->
 
     <!-- History Section -->
-    <section class="min-h-[130vh] historySection relative">
+    <section class="min-h-[130vh] historySection relative" id="history">
       <!-- Overlay Black Color  -->
       <div class="overlayBlackColor absolute inset-0 bg-gradient-to-b from-[#23314b] to-{#2d374c}  ">
 
@@ -163,7 +174,7 @@
     <!-- History Section -->
 
       <!-- Team Section -->
-      <section class="min-h-screen teamSection relative">
+      <section class="min-h-screen teamSection relative" id="climb">
         <!-- Section Title -->
         <div class="max-w-3xl mx-auto px-6">
           <div class="flex items-center justify-between space-x-8">
@@ -224,7 +235,7 @@
 
           <!-- Footer -->
           <footer class="absolute h-14 bottom-0 left-0 right-0 bg-[#414f6b]">
-            <div class="py-2 h-14 max-w-3xl mx-auto flex space-x-4  justify-between px-4">
+            <div class="py-2 h-14 max-w-3xl mx-auto flex items-center space-x-4  justify-between px-4">
               <!-- Logo -->
               <div class="flex items-center space-x-3">
                 <img src="./assets/logo/Logo.png" alt="">
@@ -246,7 +257,11 @@
 
       </section>
 
-
+      <button id="goToTopBtn" class="fixed bottom-5 right-5 bg-blue-600 text-white rounded-full p-3 shadow-lg">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm4.3-9.3a1 1 0 0 1-1.4 0L12 7.42l-2.3 2.3a1 1 0 0 1-1.4-1.42l3-3a1 1 0 0 1 1.4 0l3 3a1 1 0 0 1 0 1.42z" fill="currentColor"/>
+        </svg>
+      </button>
   </main>
 
   <script src="./scripts/script.js">

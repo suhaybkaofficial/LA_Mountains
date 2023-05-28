@@ -36,3 +36,20 @@ function changeMountainToTwo(element){
         mountain2.classList.add('bg-[#b0b4be]','text-[#414f6b]');
       } 
 }
+
+ // Get the "Go to Top" button element
+ const goToTopBtn = document.getElementById("goToTopBtn");
+
+ // Show or hide the button based on the scroll position
+ window.addEventListener("scroll", () => {
+   if (window.pageYOffset > 300) {
+     goToTopBtn.style.display = "block";
+   } else {
+     goToTopBtn.style.display = "none";
+   }
+ });
+
+ // Scroll to the top of the page when the button is clicked
+ goToTopBtn.addEventListener("click", () => {
+   window.scrollTo({ top: 0, behavior: "smooth" });
+ });

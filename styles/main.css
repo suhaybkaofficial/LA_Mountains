@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: Bebas;
@@ -96,4 +98,7 @@ body{
   }
   .schedule{
     font-family: Bebas, Arial, sans-serif
+  }
+  #goToTopBtn {
+    display: none;
   }
