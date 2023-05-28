@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Bebas;
+    src: url('../fonts/Bebas-Regular.ttf') format('truetype');
+  }
+body{
+    font-family: 'Lato',sans-serif;
+}
+.header{
+    background-image: url('../assets/img/headerBG.png');
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: cover;
+    z-index: -10;
+}
+.overlay{
+    background-image: url('../assets/img/headerOverlay.png');
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: cover;
+    opacity: 29%;
+    z-index: -9;
+}
+.nav{
+    z-index: 10;
+}
+.heroText{
+    font-family: Bebas, Arial, sans-serif
+}
+.gradient-text::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(#404f6c, #404f6c 45%, white 45%, white 55%, #404f6c 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .navbarText{
+    font-family:Bebas, Arial, sans-serif ;
+  }
+  .historySection{
+    background-image: url('../assets/img/historySectionBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  .overlayBlackColor{
+    opacity: 20%;
+  }
+  .sectionTitleNumber{
+    font-family: Bebas, Arial, sans-serif
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .swiper-slide img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .swiper-pagination-bullet-active {
+    background-color: white; /* Set the desired active bullet color */
+  }
+  p{
+    font-family: Lato,sans-serif;
+  }
+  .accordionBtn{
+    font-family: Bebas, Arial, sans-serif
+
+  }
+
+  .climbSection{
+    background-image: url('../assets/img/climbSectionBG.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+  }
+  .schedule{
+    font-family: Bebas, Arial, sans-serif
+  }

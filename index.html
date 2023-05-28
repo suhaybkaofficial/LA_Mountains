@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LA Mountains</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+  <link rel="icon" href="./assets/logo/favicon.ico" />
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <main>
+    <!-- Header -->
+    <div class="header min-h-screen relative">
+      <!-- Overlay Texture Background Image -->
+      <div class="overlay absolute inset-0 ">
+
+      </div>
+      <!-- Overlay Texture Background Image -->
+      <!-- Navbar -->
+      <nav class="nav">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16 ">
+            <div class="flex items-center justify-between w-full">
+              <!-- Logo -->
+              <div class="flex-shrink-0">
+                <img class="h-8 w-8" src="./assets/logo/Logo.png" alt="Logo">
+              </div>
+              <!-- Logo -->
+              <!-- Nav Links -->
+              <div class="hidden md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
+                  <a href="#"
+                    class="text-white px-3 hover:bg-[#404f6c] py-2 rounded-md text-sm uppercase font-bold italic underline">01.
+                    History</a>
+                  <a href="#"
+                    class="text-white hover:bg-[#404f6c] px-3 py-2 rounded-md text-sm uppercase font-bold italic underline">02.
+                    Team</a>
+                </div>
+              </div>
+              <!-- Nav Links -->
+
+            </div>
+            <div class="-mr-2 flex md:hidden">
+              <button id="mobile-menu-btn" type="button"
+                class="inline-flex bg-white items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white transition duration-150 ease-in-out"
+                aria-label="Menu">
+                <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden">
+          <div class="px-2 pt-2 pb-3 sm:px-3">
+            <a href="#"
+              class="block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium underline italic">01.
+              History</a>
+            <a href="#"
+              class="mt-1 block text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium underline italic">02.
+              Team</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- Navbar -->
+      <!-- Hero  -->
+      <div class="flex flex-col items-center justify-center  py-20">
+        <h1 class="text-7xl md:text-9xl font-bold text-[#4d4d4d] heroText">Losangeles</h1>
+        <h1 class="text-7xl md:text-9xl text-transparent  bg-clip-text bg-gradient-to-b from-[#23314b] to-{#2d374c}  uppercase  font-bold heroText">Mountains</h1>
+        
+      </div>
+      <!-- Hero  -->
+    </div>
+    <!-- Header -->
+
+    <!-- Another Nav -->
+    <div class="py-2 h-14 max-w-3xl mx-auto flex items-center my-2  justify-between px-4">
+      <!-- Logo -->
+      <div class="flex items-center space-x-3">
+        <img src="./assets/logo/Logo.png" alt="">
+        <div class="">
+          <h3 class="font-medium text-lg uppercase text-[#4d4d4d] navbarText">Losangeles</h3>
+          <h3 class="font-medium text-lg uppercase text-[#404f6c] navbarText -mt-3">Mountains</h3>
+        </div>
+      </div>
+      <!-- Logo -->
+      
+      <nav>
+        <ul class="flex items-center space-x-2">
+          <li><a href=""class="text-[#404f6c] px-3 hover:bg-[#404f6c] hover:text-white transition-all py-2 rounded-md text-md uppercase font-bold italic underline" >01. History</a></li>
+          <li><a href="" class="text-[#404f6c] px-3 hover:bg-[#404f6c] hover:text-white transition-all py-2 rounded-md text-md uppercase font-bold italic underline">01. Team</a></li>
+        </ul>
+      </nav>
+
+    </div>
+    <!-- Another Nav -->
+
+    <!-- History Section -->
+    <section class="min-h-[130vh] historySection relative">
+      <!-- Overlay Black Color  -->
+      <div class="overlayBlackColor absolute inset-0 bg-gradient-to-b from-[#23314b] to-{#2d374c}  ">
+
+      </div>
+      <!-- Overlay Black Color  -->
+
+      <!-- Section Title -->
+      <div class="max-w-3xl mx-auto px-6">
+       <div class="flex items-center">
+        <h1 class="sectionTitleNumber text-7xl md:text-9xl text-[#414f6b] opacity-40">01.</h1>
+        <h1 class="sectionTitleNumber text-3xl md:text-4xl text-[#414f6b] -ml-3 -mb-2 md:-ml-6 md:-mb-8">History</h1>
+       </div>
+       <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, </p>
+      </div>
+      <!-- Section Title -->
+
+    <!-- Carousel  -->
+    <div class="bg-[#414f6b] absolute h-56 md:h-48  bottom-0 left-0 right-0 bg-opacity-80">
+      <div class="max-w-3xl mx-auto overflow-x-hidden h-full">
+       
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/img/carouselimg1.png" alt="Image 1">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/carouselimg2.png" alt="Image 2">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/carouselimg1.png" alt="Image 3">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/carouselimg2.png" alt="Image 4">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/carouselimg1.png" alt="Image 5">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/carouselimg2.png" alt="Image 6">
+            </div>
+            <!-- Add more swiper-slide divs for additional images -->
+          </div>
+          <div class="swiper-pagination text-white "></div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- Carousel  -->
+    </section>
+    <br><br>
+    <!-- History Section -->
+
+      <!-- Team Section -->
+      <section class="min-h-screen teamSection relative">
+        <!-- Section Title -->
+        <div class="max-w-3xl mx-auto px-6">
+          <div class="flex items-center justify-between space-x-8">
+            <div class="flex items-center">
+              <h1 class="sectionTitleNumber text-7xl md:text-9xl text-[#414f6b] opacity-40">02.</h1>
+              <h1 class="sectionTitleNumber text-3xl md:text-4xl text-[#414f6b] -ml-3 -mb-2 md:-ml-6 md:-mb-8">Climb</h1>
+             </div>
+             <div>
+              <p>
+                Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue 
+              </p>
+             </div>
+          </div>
+          </div>
+        <!-- Section Title -->
+          <div class="bg-[#414f6b] h-10">
+            <div class="max-w-3xl mx-auto px-6">
+              <!-- Accordion -->
+              <div>
+                <button class="underline  font-bold uppercase accordionBtn py-2  px-2" id="mountain1" onclick="changeMountainToOne(this)">Mountain 1</button>
+                <button class="underline  font-bold uppercase accordionBtn py-2  px-2" id="mountain2" onclick="changeMountainToTwo(this)">Mountain 2</button>
+              </div>
+              <!-- Accordion -->
+            </div>
+          </div>
+          <!-- Climb Section -->
+          <div class="climbSection min-h-[90vh] relative">
+            
+            <div class="max-w-3xl mx-auto">
+            <!-- Schedule -->
+            <br>
+            <div class="h-30 bg-white py-8 px-10 w-[60vh] shadow-lg  ">
+              <h1 class="text-[#414f6b] text-4xl font-bold uppercase schedule" id="schedule">Schedule</h1>
+              <div class="flex items-center space-x-3 my-4" >
+                <!-- Left -->
+                <div>
+                  <p class="text-gray-400">25 Nov 2016</p>
+                  <p class="text-gray-400">28 Nov 2016</p>
+                  <p class="text-gray-400">18 Dec 2016</p>
+                  <p class="text-gray-400">7 Jan 2017</p>
+                </div>
+                <!-- Right -->
+                <div>
+                  <p class="text-gray-400">Vestibulum viverra</p>
+                  <p class="text-gray-400">Vestibulum viverra</p>
+                  <p class="text-gray-400">Vestibulum viverra</p>
+                  <p class="text-gray-400">Vestibulum viverra</p>
+                </div>
+                <div>
+
+                </div>
+              </div>
+            </div>
+            <!-- Schedule -->
+          </div>
+          <!-- Climb Section -->
+
+
+          <!-- Footer -->
+          <footer class="absolute h-14 bottom-0 left-0 right-0 bg-[#414f6b]">
+            <div class="py-2 h-14 max-w-3xl mx-auto flex space-x-4  justify-between px-4">
+              <!-- Logo -->
+              <div class="flex items-center space-x-3">
+                <img src="./assets/logo/Logo.png" alt="">
+                <div class="">
+                  <h3 class="font-medium text-lg uppercase text-[#63769d] navbarText">Losangeles</h3>
+                  <h3 class="font-medium text-lg uppercase text-[#63769d] navbarText -mt-3">Mountains</h3>
+                </div>
+              </div>
+              <!-- Logo -->
+              
+              <p class="uppercase text-[#63769d] text-xs font-semibold italic">
+                COPYRIGHT 2016. ALL RIGHTS RESERVED.
+              </p>
+        
+            </div>
+          </footer>
+          <!-- Footer -->
+
+
+      </section>
+
+
+  </main>
+
+  <script src="./scripts/script.js">
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 2, // Number of slides to show for small screens
+      slidesPerGroup: 2, // Number of slides to scroll at once
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 4, // Number of slides to show for wide screens
+          slidesPerGroup: 4, // Number of slides to scroll at once
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
